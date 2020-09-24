@@ -1,84 +1,53 @@
 <html>
   <head>
     <title>Kapei</title>
-
-      <style>
-        body {
-          background: url("img/fondo.jpg")no-repeat center center fixed;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-        }
-      </style>
-
-
-
-
-
+    <style>
+      body {
+        background: url("img/fondo.jpg")no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+      }
+      *{
+       margin: 0;
+       padding: 0;
+      }
+      #header {
+        margin: 0 auto;
+        position: relative;
+      }
+      #menu {
+        position: absolute;
+        top: 10px;
+        left: auto;
+        right: auto;
+        list-style-type: none;
+        width: 100%;
+      }
+      #menu li {
+        display: inline-block;
+      }
+      #menu li a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>KAPEI</h1>
-    <h3>Les cartas del tai txi</h3>
-    <div id="header">
-      <ul class="nav">
-        <li><a href="">Inici</a></li>
-        <li><a href="">Tenda</a></li>
-        <li><a href="">Contacte</a></li>
+    <header id="header">
+      <img src="img/logo.png" />
+      <ul id="menu">
+        <li><a href="index.html">INICI</a></li>
+        <li><a href="cards.html">CARTAS</a></li>
+        <li><a href="contact.html">CONTACTE</a></li>
       </ul>
-    </body>
+    </header>
+    <section>
+    </section>
+      <footer>
+      </footer>
+  </body>
 </html>
-
-
-
-<style type="text/css">
-
-    * {
-        margin:0px;
-          padding:0px;
-    }
-
-    #header {
-    margin:auto;
-    width:500px;
-    font-family:Arial, Helvetica, sans-serif;
-    }
-
-    ul, ol {
-          list-style:none;
-    }
-
-    .nav > li {
-            float:left;
-            }
-
-    .nav li a {
-          background-color:#000;
-          color:#fff;
-          text-decoration:none;
-          padding:10px 12px;
-          display:block;
-          }
-          .nav li a:hover {
-                  background-color:#031736;
-                }
-
-                .nav li ul {
-                  display:none;
-                  position:absolute;
-                  min-width:140px;
-                }
-
-                .nav li:hover > ul {
-                  display:block;
-                }
-
-                .nav li ul li {
-                  position:relative;
-                }
-
-                .nav li ul li ul {
-                  right:0px;
-                  top:0px;
-                }
-  </style>
