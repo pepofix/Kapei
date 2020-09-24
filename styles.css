@@ -1,0 +1,66 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url("img/fondo.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+*{
+ margin: 0;
+ padding: 0;
+}
+#header {
+  margin: 0 auto;
+  position: relative;
+  height: 200px;
+}
+#header img {
+  width: 100%;
+  max-width: 400px;
+}
+#footer {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  height: calc(100vh - 200px);
+  justify-content: center;
+}
+#footer img {
+  width: 100%;
+  max-width: 400px;
+  align-self: flex-end;
+}
+#menu {
+  position: absolute;
+  top: 10px;
+  left: auto;
+  right: auto;
+  list-style-type: none;
+  width: 100%;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+#laboratori {
+  position: absolute;
+  top: 113px;
+  left: auto;
+  right: auto;
+  list-style-type: none;
+  width: 100%;
+}
+#laboratori li {
+  display: inline-block;
+}
+#laboratori li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 500px;
+}
