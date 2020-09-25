@@ -48,27 +48,37 @@ body {
   text-decoration: none;
   margin: 0 10px;
 }
-#laboratori {
+#subtitle {
   position: absolute;
   top: 113px;
   left: auto;
   right: auto;
-  list-style-type: none;
   width: 100%;
-}
-#laboratori li {
-  display: inline-block;
-}
-#laboratori li a {
   color: white;
-  text-decoration: none;
-  margin: 0 500px;
+  font-size: 16px;
 }
 #paypal-button {
   position: absolute;
-  top: 500px;
+  bottom: 55px;
   left: auto;
   right: auto;
-  list-style-type: none;
   width: 100%;
+}
+#copyright {
+  position: absolute;
+  color: white;
+  bottom: 17px;
+  left: auto;
+  right: auto;
+  width: 100%;
+  font-size: 12px;
+}
+#transform {
+  position: absolute;
+  color: white;
+  bottom: 17px;
+  left: auto;
+  right: auto;
+  width: 60%;
+  font-size: 13px;
 }
