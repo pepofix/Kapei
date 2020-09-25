@@ -32,6 +32,18 @@ body {
   max-width: 400px;
   align-self: flex-end;
 }
+#dragon img {
+  width: 100%;
+  max-width: 400px;
+  align-self: flex-end;
+}
+#video {
+  width: 100%;
+  max-width: 500px;
+  align-self: flex-end;
+  position: relative;
+}
+
 #menu {
   position: absolute;
   top: 10px;
@@ -79,6 +91,6 @@ body {
   bottom: 17px;
   left: auto;
   right: auto;
-  width: 60%;
+  width: 50%;
   font-size: 13px;
 }
