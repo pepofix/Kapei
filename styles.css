@@ -64,3 +64,11 @@ body {
   text-decoration: none;
   margin: 0 500px;
 }
+#paypal-button-container {
+  position: absolute;
+  top: 500px;
+  left: auto;
+  right: auto;
+  list-style-type: none;
+  width: 100%;
+}
