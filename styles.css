@@ -32,15 +32,22 @@ body {
   max-width: 400px;
   align-self: flex-end;
 }
+#footer-small {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#footer img {
+  width: 100%;
+  max-width: 400px;
+  align-self: flex-end;
+}
 #dragon img {
   width: 100%;
   max-width: 400px;
   align-self: flex-end;
 }
-#video {
-  width: 100%;
-}
-
 #menu {
   position: absolute;
   top: 10px;
