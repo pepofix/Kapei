@@ -24,7 +24,7 @@ body {
   margin: 0 auto;
   position: relative;
   display: flex;
-  height: calc(100vh - 200px);
+  min-height: calc(100vh - 200px);
   justify-content: center;
 }
 #footer img {
@@ -63,9 +63,4 @@ body {
   color: white;
   text-decoration: none;
   margin: 0 500px;
-}
-#video {
-  margin: 0 auto;
-  position: relative;
-  height: 200px;
 }
