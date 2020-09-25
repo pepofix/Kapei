@@ -64,7 +64,7 @@ body {
   text-decoration: none;
   margin: 0 500px;
 }
-#paypal-button-container {
+#paypal-button {
   position: absolute;
   top: 500px;
   left: auto;
