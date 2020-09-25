@@ -64,3 +64,8 @@ body {
   text-decoration: none;
   margin: 0 500px;
 }
+#video {
+  margin: 0 auto;
+  position: relative;
+  height: 200px;
+}
