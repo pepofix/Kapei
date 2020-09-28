@@ -64,6 +64,13 @@ body {
   text-decoration: none;
   margin: 0 10px;
 }
+#header-logo {
+  position: absolute;
+  top: 35px;
+  left: auto;
+  right: auto;
+  height: max-content;
+}
 #subtitle {
   position: absolute;
   top: 113px;
