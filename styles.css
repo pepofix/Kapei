@@ -21,6 +21,14 @@ body {
   max-width: 400px;
   height: auto;
 }
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
 #header-logo {
   position: absolute;
   top: 30px;
@@ -53,6 +61,11 @@ body {
   max-width: 400px;
   align-self: flex-end;
 }
+#cards img {
+  width: 100%;
+  max-width: 400px;
+  align-self: flex-end;
+}
 #menu {
   position: absolute;
   top: 10px;
@@ -60,14 +73,6 @@ body {
   right: auto;
   list-style-type: none;
   width: 100%;
-}
-#menu li {
-  display: inline-block;
-}
-#menu li a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
 }
 #subtitle {
   position: absolute;
