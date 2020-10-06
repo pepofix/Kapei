@@ -49,16 +49,20 @@ body {
   min-height: calc(100vh - 170px);
   max-width: 400px;
 }
-#footer img {
-  width: 100%;
+#footer-contact {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
 }
 #footer-small {
   position: absolute;
   bottom: 0;
+  max-width: 100%;
 }
 #footer-cards {
   position: absolute;
   bottom: 0;
+  max-width: 100%;
 }
 #footer-text {
   position: absolute;
@@ -80,23 +84,21 @@ body {
   margin: 0 auto !important;
   z-index: 9999;
 }
-#footer-contact {
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-  bottom: 0px;
-}
-#footer-contact img {
-  width: 100%;
-  bottom: 0px;
-}
 #dragon {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 250px;
+}
+#dragon-clik {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 250px;
 }
 #video {
   position: absolute;
@@ -115,6 +117,28 @@ body {
   align-self: flex-end;
   z-index: 100000;
 }
+#unbox-1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 400px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  align-self: flex-end;
+  z-index: 100002;
+}
+#unbox-2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 700px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  align-self: flex-end;
+  z-index: 100001;
+}
 #menu {
   position: absolute;
   top: 10px;
@@ -131,6 +155,7 @@ body {
   width: 100%;
   color: white;
   font-size: 15px;
+  text-transform: uppercase;
 }
 #copyright {
   position: absolute;
@@ -140,25 +165,19 @@ body {
   width: 100%;
   font-size: 12px;
 }
-#text { /* la idea de text sea padre  de text-transflorm i pueda situarlo siempre.. */
-  margin: 0 auto;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  min-height: calc(100vh - 500px);
-}
+
 #text-transform {
 
 }
 #more {display: none;}
-#cool {
+#contact-cool {
   position: absolute;
   color: white;
-  top: 270px;
-  left: auto;
-  right: auto;
-  width: 60%;
+  bottom: 200px;
+  right: 0 auto;
+  max-width: 80%;
   font-size: 12px;
-  max-width: 340px;
+  background-color: black;
   text-align: left;
+  z-index: 8888;
 }
