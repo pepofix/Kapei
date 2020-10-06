@@ -64,7 +64,7 @@ body {
   position: absolute;
   background-color: black;
   color: white;
-  bottom: 60;
+  bottom: 80;
   width: 80%;
   left: auto;
   right: auto;
@@ -76,8 +76,8 @@ body {
 #paypal-button {
   position: absolute;
   bottom: 33px;
-  margin: 0 auto;
   max-width: 80px;
+  margin: 0 auto !important;
   z-index: 9999;
 }
 #footer-contact {
@@ -96,7 +96,7 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  max-width: 270px;
+  max-width: 200px;
 }
 #video {
   position: absolute;
@@ -105,10 +105,15 @@ body {
   margin: 0 auto;
   max-width: 400px;
 }
-#cards {
+#unbox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 100%;
   max-width: 400px;
   align-self: flex-end;
+  z-index: 100000;
 }
 #menu {
   position: absolute;
@@ -131,8 +136,7 @@ body {
   position: absolute;
   color: white;
   bottom: 10px;
-  left: auto;
-  right: auto;
+  right: 0 auto;
   width: 100%;
   font-size: 12px;
 }
@@ -146,6 +150,7 @@ body {
 #text-transform {
 
 }
+#more {display: none;}
 #cool {
   position: absolute;
   color: white;

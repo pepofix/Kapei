@@ -5,8 +5,8 @@
     <title>Kapei - Cartas</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <link href="./zooom.css" rel="stylesheet">
-<script src="./zooom.js"></script>
+    <link href="./readmore.css" rel="stylesheet">
+    <script src="./readmore.js"></script>
     <style>
       body {
         background: url("img/bg-cards.jpg") no-repeat center center fixed;
@@ -24,6 +24,7 @@
         <li><a href="contact.html">CONTACTE</a></li>
       </ul>
     </header>
+    <img id="unbox" src="./img/cards.png">
     <footer id="footer">
       <img id="footer-cards" src="img/footer-cards-black.png" />
       <p id="copyright">tots els drets reservats per kapei.org</p>
@@ -34,12 +35,12 @@
           i immens amb un inici blanc on hi caben tots els colors.</p><br>
         <p>Els oracles a vegades apareixen quan és el moment i els vas a
           buscar quan tens dubtes. Aquestes cartes ens expliquen la història
-          dels 24 moviments i les energies de les ànimes de cada element. Et convido a deixar-te guiar
+          dels 24 moviments <span id="dots">...</span><span id="more">i les energies de les ànimes de cada element. Et convido a deixar-te guiar
           per les ànimes, les escenes que s'hi descriuen i l'expressió dels moviments. Potser aportaran
-          claredat a les teves preguntes.</p>
+          claredat a les teves preguntes.</span></p>
+          <button onclick="myFunction()" id="myBtn">Segueix llegint</button>
         </div>
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HLDDGJC68NZAQ">
-          <img id="paypal-button" src="img/donation-button.png" />
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HLDDGJC68NZAQ"><img id="paypal-button" src="img/donation-button.png" />
     </footer>
   </body>
 </html>

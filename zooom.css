@@ -1,8 +1,0 @@
-new Zooom('img/cards.pmg', {
-    onLoaded: function(element) {
-      // do something
-    },
-    onCleared: function(element) {
-      // do something
-    },
-});
