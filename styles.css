@@ -49,10 +49,17 @@ body {
   min-height: calc(100vh - 170px);
   max-width: 400px;
 }
-#footer-contact {
-  position: absolute;
+#footer-dragon {
+  position: relative;
   bottom: 0;
-  max-width: 100%;
+  width: 100%;
+}
+#footer-contact {
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 #footer-small {
   position: absolute;
@@ -68,7 +75,7 @@ body {
   position: absolute;
   background-color: black;
   color: white;
-  bottom: 80;
+  top: 250;
   width: 80%;
   left: auto;
   right: auto;
@@ -79,6 +86,13 @@ body {
 }
 #paypal-button {
   position: absolute;
+  bottom: 33px;
+  max-width: 80px;
+  margin: 0 auto;
+  z-index: 9999;
+}
+#paypal-button-less {
+  position: relative;
   bottom: 33px;
   max-width: 80px;
   margin: 0 auto !important;
@@ -108,36 +122,25 @@ body {
   max-width: 400px;
 }
 #unbox {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  position: relative;
+  bottom: 0;
   width: 100%;
-  max-width: 400px;
-  align-self: flex-end;
-  z-index: 100000;
 }
 #unbox-1 {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 400px;
+  top: 250px;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   max-width: 400px;
   align-self: flex-end;
-  z-index: 100002;
 }
 #unbox-2 {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 700px;
+  top: 460px;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   max-width: 400px;
   align-self: flex-end;
-  z-index: 100001;
 }
 #menu {
   position: absolute;
