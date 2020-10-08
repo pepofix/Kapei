@@ -197,11 +197,11 @@ body {
   right: 0;
   margin: 0 auto;
   max-width: 400px;
-  z-index: 33333;
+  z-index: 00000;
 }
 #unbox-1 {
   position: absolute;
-  bottom: 150px;
+  bottom: 600px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -212,7 +212,7 @@ body {
 }
 #unbox-2 {
   position: absolute;
-  bottom: 10px;
+  bottom: 385px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -221,6 +221,29 @@ body {
   align-self: flex-end;
   z-index: 33333;
 }
+#unbox-3 {
+  position: absolute;
+  bottom: 170px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 300px;
+  align-self: flex-end;
+  z-index: 44444;
+}
+#lupa {
+  position: absolute;
+  bottom: 750px;
+  left: 400px;
+  right: 0;
+  margin: 0 auto;
+  width: 30%;
+  max-width: 50px;
+  align-self: flex-end;
+  z-index: 99999;
+}
+
 #copyright {
   position: absolute;
   color: white;
