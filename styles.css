@@ -14,7 +14,7 @@ body {
 }
 /* caja imbisible padre*/
 #header {
-  background-color: green;
+  background-color: ;
   position: relative;
   left: 0;
   top: 0;
@@ -32,7 +32,7 @@ body {
   top: 0;
   left: 50%;
   transform: translate(-50%);
-  z-index: 00000;
+  z-index: 11111;
 }
 #header-logo {
   position: absolute;
@@ -42,7 +42,7 @@ body {
   top: 35px;
   max-width: 230px;
   transform: translate(-50%);
-  z-index: 11111;
+  z-index: 22222;
 }
 #menu {
   position: absolute;
@@ -51,6 +51,7 @@ body {
   right: auto;
   list-style-type: none;
   width: 100%;
+  z-index: 33333;
 }
 #menu li {
   display: inline-block;
@@ -69,16 +70,19 @@ body {
   color: white;
   font-size: 15px;
   text-transform: uppercase;
+  z-index: 44444;
 }
 #body {
   margin: 0;
   }
 #main  {
-  background-color: yellow;
+  background-color: ;
   position: relative;
+  margin: 0 auto;
   left: 0;
   top: 0;
-  margin: 0px auto;
+  float: none;
+	width:100%;
   height: calc(100vh - 170px - 40px)
 }
 #main-dragon {
@@ -90,15 +94,15 @@ body {
   width: 100%;
   max-width: 400px;
   transform: translate(-50%);
-  z-index: 11111;
+  z-index: 00000;
+
 }
 #footer {
-  background: red;
+  background: ;
   position: relative;
   margin: 0 auto;
   left: 0;
   top: 0;
-  margin: 0px auto;
   bottom: 0;
   height: 45px;
 }
@@ -108,13 +112,16 @@ body {
   width: 100%;
   max-width: 400px;
   transform: translate(-50%);
+  z-index: 88888;
 }
 #footer-contact {
-  position: relative;
+  position: absolute;
   width: 100%;
   left: 0;
   right: 0;
   margin: 0 auto;
+  max-width: 400px;
+  bottom: 0;
 }
 #footer-small {
   position: absolute;
@@ -130,28 +137,29 @@ body {
   position: absolute;
   background-color: black;
   color: white;
-  top: 250;
   width: 80%;
-  left: auto;
-  right: auto;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0px;
   font-size: 12px;
   max-width: 340px;
   text-align: left;
-  z-index: 8888;
+  z-index: 99999;
 }
 #paypal-button {
   position: absolute;
   bottom: 33px;
   max-width: 80px;
   margin: 0 auto;
-  z-index: 9999;
+  z-index: 99999;
 }
 #paypal-button-less {
   position: relative;
   bottom: 33px;
   max-width: 80px;
   margin: 0 auto !important;
-  z-index: 9999;
+  z-index: 99999;
 }
 #dragon {
   position: absolute;
@@ -177,25 +185,37 @@ body {
   max-width: 400px;
 }
 #unbox {
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 400px;
+  z-index: 33333;
 }
 #unbox-1 {
   position: absolute;
-  top: 250px;
+  bottom: 150px;
+  left: 0;
+  right: 0;
   margin: 0 auto;
-  width: 80%;
-  max-width: 400px;
+  width: 60%;
+  max-width: 300px;
   align-self: flex-end;
+  z-index: 33333;
 }
 #unbox-2 {
   position: absolute;
-  top: 460px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
   margin: 0 auto;
-  width: 80%;
-  max-width: 400px;
+  width: 60%;
+  max-width: 300px;
   align-self: flex-end;
+  z-index: 33333;
 }
 #copyright {
   position: absolute;
@@ -204,20 +224,22 @@ body {
   right: 0 auto;
   width: 100%;
   font-size: 12px;
+  z-index: 88888;
 }
-
 #text-transform {
-
 }
 #more {display: none;}
 #contact-cool {
   position: absolute;
-  color: white;
-  bottom: 200px;
-  right: 0 auto;
-  max-width: 80%;
-  font-size: 12px;
   background-color: black;
+  color: white;
+  bottom: 80px;
+  left: 0;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 12px;
+  max-width: 340px;
   text-align: left;
-  z-index: 8888;
 }
