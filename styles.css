@@ -40,10 +40,17 @@ body {
   margin: 0px auto;
   margin: 0 auto;
   top: 35px;
-  width: 100%;
   max-width: 230px;
   transform: translate(-50%);
   z-index: 11111;
+}
+#menu {
+  position: absolute;
+  top: 10px;
+  left: auto;
+  right: auto;
+  list-style-type: none;
+  width: 100%;
 }
 #menu li {
   display: inline-block;
@@ -52,6 +59,16 @@ body {
   color: white;
   text-decoration: none;
   margin: 0 10px;
+}
+#subtitle {
+  position: absolute;
+  top: 100px;
+  left: auto;
+  right: auto;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 #body {
   margin: 0;
@@ -179,24 +196,6 @@ body {
   width: 80%;
   max-width: 400px;
   align-self: flex-end;
-}
-#menu {
-  position: absolute;
-  top: 10px;
-  left: auto;
-  right: auto;
-  list-style-type: none;
-  width: 100%;
-}
-#subtitle {
-  position: absolute;
-  top: 100px;
-  left: auto;
-  right: auto;
-  width: 100%;
-  color: white;
-  font-size: 15px;
-  text-transform: uppercase;
 }
 #copyright {
   position: absolute;
