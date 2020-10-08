@@ -40,6 +40,7 @@ body {
   margin: 0px auto;
   margin: 0 auto;
   top: 35px;
+  width: 100%;
   max-width: 230px;
   transform: translate(-50%);
   z-index: 11111;
@@ -69,6 +70,7 @@ body {
   margin: 0px auto;
   margin: 0 auto;
   bottom: 0px;
+  width: 100%;
   max-width: 400px;
   transform: translate(-50%);
   z-index: 11111;
@@ -85,7 +87,8 @@ body {
 }
 #footer-fix {
   position: absolute;
-    bottom: 0px;
+  bottom: 0px;
+  width: 100%;
   max-width: 400px;
   transform: translate(-50%);
 }
