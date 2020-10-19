@@ -22,6 +22,15 @@ body {
   width: 100%;
   height: 380px;
 }
+#header-c {
+  background-color: ;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin: 0px auto;
+  width: 100%;
+  height: 1500px;
+}
 /* estas reglas se aplican a todas las imagenes dentro header hijo */
 /* mas o menos como el tamaño de header  */
 #header-bg {
@@ -152,8 +161,8 @@ body {
   max-width: 100%;
 }
 #w3-content{
-  position: relative;
-  bottom: 200px;
+  position: absolute;
+  bottom: 100px;
   color: white;
   left: 0;
   right: 0;
@@ -249,12 +258,12 @@ div {
 }
 #unbox-1 {
   position: absolute;
-  bottom: 0px;
+  bottom: 350px;
   left: 0;
   right: 0;
   margin: 0 auto;
   width: 60%;
-  max-width: 200px;
+  max-width: 350px;
   align-self: flex-end;
   z-index: 33333;
 }
