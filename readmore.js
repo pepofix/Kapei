@@ -5,11 +5,11 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Segueix llegint";
+    btnText.innerHTML = "Segueix";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Segueix llegint";
+    btnText.innerHTML = "menys";
     moreText.style.display = "inline";
   }
 }
