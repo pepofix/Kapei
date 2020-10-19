@@ -179,6 +179,19 @@ div {
   z-index: 99999;
   width: 350px
 }
+#cards {
+  position: relative;
+  text-decoration: none;
+  bottom: -250px;
+  left: auto;
+  right: auto;
+  width: 100%;
+  color: white;
+  font-size: 14.5px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  z-index: 44444;
+}
 #footer-text {
   position: absolute;
   background-color: black;
