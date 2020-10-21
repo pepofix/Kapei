@@ -146,6 +146,17 @@ body {
   bottom: 0;
   height: 45px;
 }
+#main-video {
+  position: absolute;
+  left: auto;
+  margin: 0px auto;
+  margin: 0 auto;
+  bottom: 0px;
+  width: 100%;
+  max-width:350px;
+  transform: translate(-50%);
+  z-index: 99999;
+}
 #footer-zoom {
   background: ;
   position: relative;
@@ -173,9 +184,9 @@ body {
 }
 #footer-fix-f {
   position: absolute;
-  bottom: -1035px;
+  bottom: -990px;
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
   transform: translate(-50%);
   z-index: 88888;
 }
