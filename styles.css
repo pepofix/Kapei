@@ -12,7 +12,6 @@ body {
  margin: 0;
  padding: 0;
 }
-/* caja imbisible padre*/
 #header {
   background-color: ;
   position: relative;
@@ -39,8 +38,15 @@ body {
   width: 100%;
   height: 480px;
 }
-/* estas reglas se aplican a todas las imagenes dentro header hijo */
-/* mas o menos como el tamaño de header  */
+#header-contact {
+  background-color: ;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin: 0px auto;
+  width: 100%;
+  height: 380px;
+}
 #header-bg {
   position: absolute;
   left: auto;
@@ -151,7 +157,7 @@ body {
   left: auto;
   margin: 0px auto;
   margin: 0 auto;
-  bottom: 0px;
+  bottom: 10px;
   width: 100%;
   max-width:350px;
   transform: translate(-50%);
@@ -184,7 +190,7 @@ body {
 }
 #footer-fix-f {
   position: absolute;
-  bottom: -990px;
+  bottom: -975px;
   width: 100%;
   max-width: 350px;
   transform: translate(-50%);
@@ -257,29 +263,14 @@ div {
 }
 #paypal-button {
   position: absolute;
-  bottom: 100px;
+  bottom: 110px;
   max-width: 80px;
   left: 0;
   right: 0;
   margin: 0 auto;
-  z-index: 99999;
-}
-#paypal-button-less {
-  position: relative;
-  bottom: 33px;
-  max-width: 80px;
-  margin: 0 auto !important;
   z-index: 99999;
 }
 #dragon {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  max-width: 250px;
-}
-#dragon-clik {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -295,7 +286,6 @@ div {
   margin: 0 auto;
   width: 100%;
 }
-
 #mine-slides {
   width: 90%;
   max-width: 300px;
@@ -330,39 +320,6 @@ div {
   align-self: flex-end;
   z-index: 33333;
 }
-#unbox-2 {
-  position: absolute;
-  bottom: 385px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 60%;
-  max-width: 300px;
-  align-self: flex-end;
-  z-index: 33333;
-}
-#unbox-3 {
-  position: absolute;
-  bottom: 170px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 60%;
-  max-width: 300px;
-  align-self: flex-end;
-  z-index: 44444;
-}
-#lupa {
-  position: absolute;
-  bottom: 170px;
-  left: 230px;
-  right: 0;
-  margin: 0 auto;
-  max-width: 30px;
-  align-self: flex-end;
-  z-index: 99999;
-}
-
 #copyright {
   position: absolute;
   color: white;
@@ -379,7 +336,7 @@ div {
   position: absolute;
   background-color: black;
   color: white;
-  bottom: 50px;
+  bottom: 70px;
   left: 0;
   width: 80%;
   left: 0;
@@ -393,7 +350,7 @@ div {
   position: absolute;
   background-color: black;
   color: white;
-  bottom: 30px;
+  bottom: 50px;
   left: 0;
   width: 80%;
   left: 0;
