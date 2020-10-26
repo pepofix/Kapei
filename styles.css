@@ -127,7 +127,6 @@ body {
   position: absolute;
   left: auto;
   margin: 0px auto;
-  margin: 0 auto;
   bottom: 0px;
   width: 100%;
   max-width: 400px;
@@ -138,11 +137,11 @@ body {
   position: absolute;
   left: auto;
   margin: 0px auto;
-  margin: 0 auto;
   bottom: 0px;
   width: 100%;
   max-width: 400px;
   transform: translate(-50%);
+
   z-index: 11111;
 }
 #footer {
