@@ -116,7 +116,6 @@ body {
 #main  {
   background-color: ;
   position: relative;
-  margin: 0 auto;
   left: 0;
   top: 0;
   float: none;
@@ -126,7 +125,6 @@ body {
 #main-dragon {
   position: absolute;
   left: auto;
-  margin: 0px auto;
   bottom: 0px;
   width: 100%;
   max-width: 400px;
