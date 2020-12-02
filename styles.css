@@ -120,8 +120,8 @@ body {
   top: 0;
   float: none;
 	width:100%;
-  height: calc(100vh - 170px - 40px)
-  z-index: 11111;
+  height: calc(100vh - 170px - 40px);
+  min-height: 600px;
 }
 #main-dragon {
   position: absolute;
@@ -129,7 +129,6 @@ body {
   bottom: 0px;
   width: 100%;
   max-width: 400px;
-
   transform: translate(-50%);
   z-index: 11111;
 }
@@ -138,11 +137,23 @@ body {
   left: auto;
   margin: 0px auto;
   bottom: 0px;
-  width: 90vw;
-  max-width: 75vw;
+  width: 100%;
+  max-width: 400px;
   transform: translate(-50%);
   z-index: 11111;
 }
+
+@media only screen and (max-width: 600px) {
+  #main-dragon-alone {
+    max-width: 350px;
+  }
+
+  #main  {
+  min-height: 400px;
+}
+}
+
+
 #footer {
   background: ;
   position: relative;
@@ -161,7 +172,7 @@ body {
   width: 100%;
   max-width:350px;
   transform: translate(-50%);
-  z-index: 88888;
+  z-index: 99999;
 }
 #footer-zoom {
   background: ;
@@ -186,7 +197,7 @@ body {
   width: 100%;
   max-width: 400px;
   transform: translate(-50%);
-  z-index: 77777;
+  z-index: 88888;
 }
 #footer-fix-f {
   position: absolute;
@@ -215,6 +226,25 @@ body {
   bottom: 0;
   max-width: 100%;
 }
+#w3-content{
+  position: absolute;
+  bottom: 100px;
+  color: white;
+  left: 0;
+  right: 0;
+  max-width: 350px;
+  margin: 0 auto;
+  z-index: 99999;
+  width: 350px
+}
+div {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 99999;
+  width: 350px
+}
 #cards {
   position: relative;
   text-decoration: none;
@@ -229,12 +259,14 @@ body {
   z-index: 44444;
 }
 #footer-text {
+  position: absolute;
   background-color: black;
   color: white;
-  border:1px solid green;
-  width: 80vw;
- 
+  width: 80%;
+  left: 0;
+  right: 0;
   margin: 0 auto;
+  bottom: 190px;
   font-size: 12px;
   max-width: 340px;
   text-align: left;
@@ -251,11 +283,11 @@ body {
 }
 #dragon {
   position: absolute;
-  bottom: 10;
+  bottom: 0;
   left: 0;
   right: 0;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 250px;
 }
 #video {
   position: absolute;
@@ -263,7 +295,7 @@ body {
   right: 0;
   margin: 0 auto;
   width: 100%;
-  z-index: 99999;
+  z-index: 88888;
 }
 #mine-slides {
   width: 90%;
@@ -348,7 +380,4 @@ body {
   font-size: 12px;
   max-width: 340px;
   text-align: center;
-}
-@media only screen and (max-width: 400px) {
-
 }
