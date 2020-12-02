@@ -121,6 +121,7 @@ body {
   float: none;
 	width:100%;
   height: calc(100vh - 170px - 40px)
+  z-index: 11111;
 }
 #main-dragon {
   position: absolute;
@@ -160,7 +161,7 @@ body {
   width: 100%;
   max-width:350px;
   transform: translate(-50%);
-  z-index: 99999;
+  z-index: 88888;
 }
 #footer-zoom {
   background: ;
@@ -185,7 +186,7 @@ body {
   width: 100%;
   max-width: 400px;
   transform: translate(-50%);
-  z-index: 88888;
+  z-index: 77777;
 }
 #footer-fix-f {
   position: absolute;
@@ -213,25 +214,6 @@ body {
   position: absolute;
   bottom: 0;
   max-width: 100%;
-}
-#w3-content{
-  position: absolute;
-  bottom: 100px;
-  color: white;
-  left: 0;
-  right: 0;
-  max-width: 350px;
-  margin: 0 auto;
-  z-index: 99999;
-  width: 350px
-}
-div {
-  position: relative;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 99999;
-  width: 350px
 }
 #cards {
   position: relative;
@@ -281,7 +263,7 @@ div {
   right: 0;
   margin: 0 auto;
   width: 100%;
-  z-index: 88888;
+  z-index: 99999;
 }
 #mine-slides {
   width: 90%;
@@ -366,4 +348,7 @@ div {
   font-size: 12px;
   max-width: 340px;
   text-align: center;
+}
+@media only screen and (max-width: 400px) {
+
 }
