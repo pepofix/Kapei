@@ -1,12 +1,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background: url("img/fondo.jpg")no-repeat center center fixed;
+  background: url("img/fondo.jpg") center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
   image-orientation: center;
+   position: relative;
 }
 * {
  margin: 0px;
@@ -113,7 +114,7 @@ body {
 #body {
   margin: 0;
   }
-#main  {
+#main {
   background-color: ;
   position: relative;
   left: 0;
@@ -141,17 +142,10 @@ body {
   max-width: 400px;
   transform: translate(-50%);
   z-index: 11111;
+  background-color:transparent;
 }
 
-@media only screen and (max-width: 600px) {
-  #main-dragon-alone {
-    max-width: 350px;
-  }
 
-  #main  {
-  min-height: 400px;
-}
-}
 
 
 #footer {
@@ -294,6 +288,7 @@ div {
   left: 0;
   right: 0;
   margin: 0 auto;
+  height:300px;
   width: 100%;
   z-index: 88888;
 }
@@ -380,4 +375,42 @@ div {
   font-size: 12px;
   max-width: 340px;
   text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #main-dragon-alone {
+      max-width: 350px;
+  }
+
+  #main  {
+    min-height: 600px;
+    }
+
+  #footer-text{
+    background-color:transparent;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 130px;
+  }
+  #video{
+    height:200px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
 }
