@@ -1,0 +1,301 @@
+<html>
+<head>
+	 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	
+	<script type="text/javascript">
+	let vh = window.innerHeight * 0.01;
+	// Then we set the value in the --vh custom property to the root of the document
+	document.documentElement.style.setProperty('--vh', `${vh}px`);
+	let videoSize =  window.innerHeight/2;
+	document.documentElement.style.setProperty('videoSize', `${videoSize}px`);
+
+	window.addEventListener('resize', function () { 
+    "use strict";
+    window.location.reload(); 
+});
+
+	</script>
+
+	<style type="text/css">
+
+	body {
+  font-family: 'Open Sans', sans-serif;
+  background: url("img/capçelera-animacio.jpg") center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  image-orientation: center;
+  position: relative;
+  height:1000px;
+}
+* {
+ margin: 0px;
+ padding: 0px;
+}
+
+
+table, th, td {
+	border: 0px #2b2b2b solid;
+	color: #2b2b2b;
+	text-align: center; 
+	border-collapse:collapse
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  margin: 0 10px;
+}
+
+.tableOut{
+	height:300vh;
+	width:100vw;
+  height: calc(var(--vh, 1vh) * 150);
+  min-height:800px;
+}
+
+.tableIn{
+   margin-left: auto;
+   margin-right: auto;
+	 color:white;
+	 width:400px;
+	 border: 0px red solid;
+}
+
+.tableIn  th, .tableIn td{
+    border: 0px red solid;
+}
+
+
+.tdVideo{
+  height:113px;
+}
+
+
+.tableIn .mail{
+	height:70px;
+}
+
+.header, .footer{
+	height:15vh;
+	align-items:center;
+}
+
+.header{
+		min-height:800px;
+}
+
+.main{
+    vertical-align: bottom;
+}
+
+.cardsfooter{
+	height:40vh;
+	align-items:center;
+	vertical-align: bottom;
+	padding-bottom:50px;
+}
+
+.footer{
+	background-image: url("img/logo-kapei-black-buttom.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+  height:120px;
+ 	
+}
+.header{
+	background-image: url("img/header-cards.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.rowmain{
+  background-image: url("img/zoomcards-large.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size:515px;
+  border:0px solid yellow;
+}
+
+
+.cardText{
+	text-align:left;
+  	border: 0px solid red;
+  	padding:30px;
+  	color:white;
+}
+
+.derets{
+	height:40px;
+	background-color:black;
+	 color:white;
+}
+
+.video{
+	width:40vw;
+	height:40vh;
+}
+
+ul {
+  width: 13%;
+  margin: auto;
+  list-style-type: none;
+  padding: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 40px;  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+
+  transform: translate(-50%, -50%);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.donationbutton{
+  background-image: url("img/zoomcards-large.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  
+}
+
+.img{
+  width:400px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .img{
+    width:80vw;
+  }
+  .donationbutton{
+    background-size:82vw;
+  }
+  .header{
+  	background-size:100vw;
+  	height:350px;
+  }
+
+  .footer{
+  	background-size:100vw;
+  	height:450px;
+  }
+
+  .derets{
+	height:60px;
+	background-color:black;
+	color:white;
+	font-size:50px;
+  }
+	.tableIn{
+		width:80vw;
+		vertical-align: top;
+	}
+  .cardText{
+  	width:100vw;
+  	font-size:30px;
+  	border:0px solid yellow;
+  }
+  .tableIn .mail{
+	height:240px;
+	color:white;
+	font-size:60px;
+}
+	.cardsfooter{
+		padding-bottom:100px;
+	}
+
+	.video{
+		width:100vw;
+	}	
+	ul {
+	top: 80px;
+  
+  width: 62%;
+  font-size:40px;
+  }
+  .maincardszoom{
+    background-size:82vw;
+  }
+  .footer{
+    height:280px;
+  }
+  .rowmain{
+  background-image: url("img/zoomcards-large.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size:100vw;
+  border:0px solid yellow;
+}
+
+.tableIn{
+  width:100vw;
+
+}
+.tdVideo{
+  height:20vh;
+
+}
+
+.unbox-2{
+  height:400px;
+}
+.paypal-button{
+  height:100px;
+}
+}
+
+
+</style>
+
+</head>
+<body>
+
+<table class="tableOut">
+<tr>
+  <th class="header">
+    <ul id="menu">
+        <li><a href="index.html">INICI</a></li>
+        <li><a href="cards.html">CARTES</a></li>
+        <li><a href="contact.html">CONTACTE</a></li>
+    </ul>
+  </th>
+</tr>
+<tr class="rowmain"><td>
+    <table class="tableIn">
+      <tr><td>  <img class="img" src="img/carteszoom1.jpg" ></td></tr>
+      <tr><td class="tdVideo"> 
+        <a href="conceptvideo.html"><img class="unbox-2" src="gif/concept.gif" ></a>
+      </td></tr>
+      <tr><td>
+        <br>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HLDDGJC68NZAQ">
+          <img class="paypal-button" src="img/donation-button.png"/>
+        </a>
+        </td></tr>
+    </table>
+
+
+</td></tr>
+<tr>
+  <td  class="footer cardsfooter">
+  	</a><img id="footer-fix" src="gif/footer-video.gif" /></a>
+  </td>
+</tr>
+<tr>
+<td  class="derets">tots els drets reservats per kapei.org</td>
+</tr>
+</table>
+
+</body>
+</html>

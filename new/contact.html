@@ -1,0 +1,220 @@
+<html>
+<head>
+	 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	
+	<script type="text/javascript">
+	let vh = window.innerHeight * 0.01;
+	// Then we set the value in the --vh custom property to the root of the document
+	document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+	window.addEventListener('resize', function () { 
+    "use strict";
+    window.location.reload(); 
+});
+
+	</script>
+
+	<style type="text/css">
+
+	body {
+  font-family: 'Open Sans', sans-serif;
+  background: url("img/fondo.jpg") center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  image-orientation: center;
+  position: relative;
+
+}
+* {
+ margin: 0px;
+ padding: 0px;
+}
+
+
+table, th, td {
+	border: 0px #2b2b2b solid;
+	color: #2b2b2b;
+	text-align: center; 
+	border-collapse:collapse
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  margin: 0 10px;
+}
+
+.tableOut{
+	height:100vh;
+	width:100vw;
+  	height: calc(var(--vh, 1vh) * 100);
+  	min-height:1000px;
+}
+
+.tableIn{
+   margin-left: auto;
+   margin-right: auto;
+	color:white;
+	width:400px;
+	border: 0px red solid;
+}
+
+.tableIn .mail{
+	height:70px;
+}
+
+.header, .footer{
+	height:15vh;
+	align-items:center;
+}
+
+.header{
+		min-height:800px;
+}
+
+.main{
+    vertical-align: bottom;
+}
+
+.cardsfooter{
+	height:40vh;
+	align-items:center;
+	vertical-align: bottom;
+}
+
+.footer{
+	background-image: url("img/main-contact.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+ 	
+}
+.header{
+	background-image: url("img/header-cards.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+.cardText{
+	text-align:left;
+  	border: 0px solid red;
+  	padding:30px;
+  	color:white;
+}
+
+.derets{
+	height:40px;
+	background-color:black;
+	 color:white;
+}
+
+ul {
+  width: 13%;
+  margin: auto;
+  list-style-type: none;
+  padding: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 40px;  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+
+  transform: translate(-50%, -50%);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .header{
+  	background-size:100vw;
+  }
+
+  .footer{
+  	background-size:100vw;
+  }
+
+  .derets{
+	height:60px;
+	background-color:black;
+	color:white;
+	font-size:50px;
+  }
+	.tableIn{
+		width:80vw;
+		vertical-align: top;
+	}
+  .cardText{
+  	width:100vw;
+  	font-size:30px;
+  	border:0px solid yellow;
+  }
+  .tableIn .mail{
+	height:240px;
+	color:white;
+	font-size:60px;
+}
+
+ul {
+  top: 80px;
+  width: 62%;
+  font-size:40px;
+  }
+
+}
+
+
+</style>
+
+</head>
+<body>
+
+<table class="tableOut">
+<tr>
+<th class="header">
+	 <ul id="menu">
+        <li><a href="index.html">INICI</a></li>
+        <li><a href="cards.html">CARTES</a></li>
+        <li><a href="contact.html">CONTACTE</a></li>
+      </ul>
+</th>
+</tr>
+<tr>
+<td  class="footer cardsfooter">
+	<table class="tableIn" >
+		<tr>
+			<td class="cardText " >
+			  <p>És meravellós saber que tens ganes de contactar amb mi. Deixa els teus <br>dubtes en aquest correu.
+	         Intentarem respondre el més aviat possible. <p><br>Gràcies!<br><br></p></p>
+	          </p>
+	          </div>
+	      </td>
+	    </tr>
+	    <tr>
+	    	<td class="mail">
+	    		<a id="email" href="mailto:kapeistories&nbsp;[@]&nbsp;gmail&nbsp;[.]&nbsp;com">email</a>
+	    	</td>
+	    </tr>
+  	</table>
+      </td>
+</tr>
+<tr>
+<td  class="derets">tots els drets reservats per kapei.org</td>
+</tr>
+</table>
+
+</body>
+</html>

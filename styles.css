@@ -121,7 +121,7 @@ body {
   top: 0;
   float: none;
 	width:100%;
-  height: calc(100vh - 170px - 40px);
+  height: calc(100vh - 45px);
   min-height: 600px;
 }
 #main-dragon {
