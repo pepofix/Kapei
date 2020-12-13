@@ -1,11 +1,12 @@
 <html>
 <head>
 	 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="text/javascript">
 	let vh = window.innerHeight * 0.01;
-	// Then we set the value in the --vh custom property to the root of the document
+	let vw = document.documentElement.clientWidth / 100;
 	document.documentElement.style.setProperty('--vh', `${vh}px`);
+	document.documentElement.style.setProperty('--vw', `${vw}px`);
 
 	window.addEventListener('resize', function () { 
     "use strict";
@@ -37,6 +38,7 @@
 * {
  margin: 0px;
  padding: 0px;
+ touch-action: manipulation; 
 }
 
 
@@ -54,11 +56,9 @@ a {
 }
 
 .tableOut{
-	height:100vh;
+	height:150vh;
 	width:100vw;
-  	height: calc(var(--vh, 1vh) * 140);
-  	min-height:800px;
-
+    height: calc(var(--vh, 1vh) * 150);
 }
 
 .tableIn{
@@ -73,12 +73,12 @@ a {
 }
 
 .header, .footer{
-	height:13vh;
+	height:15vh;
 	align-items:center;
 }
 
 .header{
-	height:180px;
+	height:100px;
 	min-height:800px;
     vertical-align: top;
     padding-top:20px;
@@ -98,8 +98,7 @@ a {
 	background-image: url("img/cards-banner.png");
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	background-position: center 150px;
-	padding-top:200px;
+  	background-size: auto 100%;
  	
 }
 .header{
@@ -151,55 +150,10 @@ li a {
 	height:100px;
 }
 
-@media only screen and (max-width: 1000px) {
-  .header{
-  	background-size:100vw;
-  	height:350px;
-  	font-size:40px;
-  }
-
-  .footer{
-  	background-size:100vw;
-  	background-position: center 100px;
-  }
-
-  .derets{
-	height:60px;
-	background-color:black;
-	color:white;
-	font-size:50px;
-  }
-	.tableIn{
-		width:80vw;
-		vertical-align: top;
-	}
-  .cardText{
-  	width:100vw;
-  	font-size:20px;
-  }
-  .tableIn .mail{
-	height:240px;
-	color:white;
-	font-size:60px;
-}
-ul {
-	top: 80px;
-  
-  width: 62%;
-  font-size:40px;
-  }
-
-  .tableOut{
-	height:100vh;
-	width:100vw;
-  	height: calc(var(--vh, 1vh) * 110);
-  	min-height:800px;
-}
-
-}
 
 
 </style>
+<link rel="stylesheet" href="media-query-cards.css">
 
 </head>
 <body>
@@ -216,28 +170,7 @@ ul {
 </tr>
 <tr>
 <td  class="footer cardsfooter"  onclick='tdclick(event);'>
-	<table class="tableIn" >
-		<tr>
-			<td class="cardText" >
-			  Per al nen i la nena interior<br>
-<br>
-La transformació pot començar per un buit petit, un espai ínfim ple de possibilitats, un lloc on trobem totes les llavors, el principi infinit de tots els nostres boscos interiors. La transformació pot ser un viatge meravellós que travessi tots els meus buits, un viatge lluminós i immens amb un inici blanc on hi caben tots els colors.<br>
-<br>
-Els oracles a vegades apareixen quan és el moment i els vas a buscar quan tens dubtes. Aquestes cartes ens expliquen la història dels 24 moviments i les energies de les ànimes de cada element. Et convido a deixar-te guiar per les ànimes, les escenes que s'hi descriuen i l'expressió dels moviments; potser aportaran claredat a les teves preguntes.
-	          </div>
-	      </td>
-	    </tr>
-	    <tr>
-	    	<td class="donationbutton">
-	    	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HLDDGJC68NZAQ"><img src="img/donation-button.png"></a>
-	    	</td>
-		</tr>
-		<tr>
-	    	<td >
-	    	<a href="./cardszoom.html"><img id="footer-fix" src="gif/footer-video.gif" /></a>
-	    	</td>
-		</tr>
-  	</table>
+	
       </td>
 </tr>
 <tr>
