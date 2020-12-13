@@ -1,13 +1,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background: url("img/fondo.jpg") center center fixed;
+  background: url("img/fondo.jpg")no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
   image-orientation: center;
-   position: relative;
 }
 * {
  margin: 0px;
@@ -21,7 +20,16 @@ body {
   top: 0;
   margin: 0px auto;
   width: 100%;
-  height: 170px;
+  height: 200px;
+}
+#header-video {
+  background-color: ;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin: 0px auto;
+  width: 100%;
+  height: 180px;
 }
 #header-c {
   position: relative;
@@ -114,15 +122,14 @@ body {
 #body {
   margin: 0;
   }
-#main {
+#main  {
   background-color: ;
   position: relative;
   left: 0;
   top: 0;
   float: none;
 	width:100%;
-  height: calc(100vh - 45px);
-  min-height: 600px;
+  height: calc(100vh - 170px - 40px)
 }
 #main-dragon {
   position: absolute;
@@ -137,17 +144,13 @@ body {
   position: absolute;
   left: auto;
   margin: 0px auto;
+  margin-top: 100px;
   bottom: 0px;
   width: 100%;
   max-width: 400px;
   transform: translate(-50%);
   z-index: 11111;
-  background-color:transparent;
 }
-
-
-
-
 #footer {
   background: ;
   position: relative;
@@ -260,7 +263,7 @@ div {
   left: 0;
   right: 0;
   margin: 0 auto;
-  bottom: 190px;
+  bottom: 170px;
   font-size: 12px;
   max-width: 340px;
   text-align: left;
@@ -288,7 +291,6 @@ div {
   left: 0;
   right: 0;
   margin: 0 auto;
-  height:300px;
   width: 100%;
   z-index: 88888;
 }
@@ -376,33 +378,20 @@ div {
   max-width: 340px;
   text-align: center;
 }
-
-
-@media only screen and (max-width: 600px) {
-  #main-dragon-alone {
-      max-width: 350px;
-  }
-
-  #main  {
-    min-height: 600px;
-    }
-
-  #footer-text{
-    background-color:transparent;
-    position: absolute;
-    background-color: black;
-    color: white;
-    width: 80%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    bottom: 130px;
-  }
-  #video{
-    height:200px;
-  }
+#instagram {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 30px;
+  left: 0;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 12px;
+  max-width: 340px;
+  text-align: center;
 }
-
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
   html {
     transform: rotate(-90deg);
