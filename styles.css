@@ -68,16 +68,6 @@ body {
   transform: translate(-50%);
   z-index: 11111;
 }
-#header-bg-insta  {
-  position: absolute;
-  left: auto;
-  max-width: 400px;
-  width: 100%;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%);
-  z-index: 3333;
-}
 #header-logo {
   position: absolute;
   left: 0px;
