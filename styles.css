@@ -70,7 +70,13 @@ body {
 }
 
 #menu {
-
+  position: absolute;
+  top: 10px;
+  left: auto;
+  right: auto;
+  list-style-type: none;
+  width: 100%;
+  z-index: 33333;
 }
 #menu li {
   display: inline-block;
