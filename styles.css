@@ -80,26 +80,6 @@ body {
   text-decoration: none;
   margin: 0 10px;
 }
-
-#contacts {
-  position: absolute;
-  top: 10px;
-  left: auto;
-  right: auto;
-  list-style-type: none;
-  width: 100%;
-  z-index: 33333;
-}
-#header-bg-insta  {
-  position: absolute;
-  left: auto;
-  max-width: 20px;
-  width: 100%;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%);
-  z-index: 99999;
-}
 #header-logo {
   position: absolute;
   left: 0px;
@@ -109,23 +89,6 @@ body {
   top: 35px;
   max-width: 230px;
   z-index: 22222;
-}
-#menu {
-  position: absolute;
-  top: 10px;
-  left: auto;
-  right: auto;
-  list-style-type: none;
-  width: 100%;
-  z-index: 33333;
-}
-#menu li {
-  display: inline-block;
-}
-#menu li a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
 }
 #subtitle {
   position: absolute;
