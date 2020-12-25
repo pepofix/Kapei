@@ -450,14 +450,3 @@ div {
     left: 0;
   }
 }
-@media screen (min-height: 1000px) and (min-width: 1800) {
-  #header {
-    background-color: ;
-    position: relative;
-    left: 0;
-    top: 0;
-    margin: 0px auto;
-    width: 100%;
-    height: 400px;
-  }
-}
