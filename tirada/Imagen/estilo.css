@@ -1,0 +1,181 @@
+/* CSS */
+body {
+	margin:0;
+	padding: 0;
+	font-family: Georgia;
+	font-size: 13px;
+	background-color:#F7F7F7;
+}
+/* Font Styles */
+h1 {
+	width: 100%;
+	color: #993366;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Georgia;
+	line-height: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin: 1px;
+}
+h3 {
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: #003399;
+	margin: 1px;
+}
+h5 {
+	font-size: 13px;
+	color: #990066;
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia;
+	text-decoration: underline;
+}
+p {
+	font-family: Georgia;
+	font-size: 12px;
+	text-align: justify;
+	vertical-align: top;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+}
+.Celta1 {
+	width: 110px;
+	height: 110px;
+}
+.cart_table { width: 90%; background-color: #E8E8E8; border: 1px solid #003F5E; border-collapse: collapse; }
+.cart_heading { color: #FFFFFF; font-weight: bold; background-color: #003F5E; }
+.cart_heading2 { color: #FFFFFF; font-weight: bold; background-color: #006699; }
+.cart_row1 { height: 20px; background-color: #E8E8E8; }
+.cart_row2 { height: 20px; background-color: #DDDDDD; }
+.cart_row_total { height: 20px; color: white; font-weight: bold; background-color: #003F5E }
+/* Link Styles */
+a { color: #006699; text-decoration: none; }
+a:hover { color: #CC0000; text-decoration: none;}
+a.menu_link, a.menu_link:active, a.menu_link:visited {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Georgia;
+	font-size: 12px;
+}
+a.menu_link:hover {
+	color: #999999;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Georgia;
+	font-size: 12px;
+}
+a.menu_link_selected, a.menu_link_selected:active, a.menu_link_selected:visited {
+	color: #999999;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Georgia;
+	font-size: 12px;
+}
+a.item_link {
+	color: #000000;
+	font-weight: bold;
+	font-size: 17px;
+}
+a.category_link { color: #000000; font-weight: bold; font-size: 14px; }
+a.sub_category_link { color: #000000; font-weight: bold; font-size: 12px; }
+a.item_related_link { color: #000000; font-weight: bold; font-size: 12px; }
+a.mini_link, a.mini_link:active, a.mini_link:visited, a.mini_link:hover { color: #666666; }
+
+hr {
+	margin: 0px;
+	width: inherit;
+}
+.Down {
+	bottom: 0px;
+	width: 360px;
+	vertical-align: middle;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+	font-family: Georgia;
+	font-size: 12px;
+	color: #000066;
+}
+.mini_link {
+	color: #000000;
+	font-size: 10px;
+}
+/* Form Styles */
+input.text { font-size: 12px; background-color: #E8E8E8; border: 1px solid #CCCCCC; padding: 2px; }
+input.button { font-size: 12px; font-weight: bold; background-color: #003F5E; color: white; border: 1px solid #CCCCCC; padding: 2px; }
+textarea { font-family:Georgia; font-size: 12px; background-color: #E8E8E8; border: 1px solid #CCCCCC; padding: 2px; }
+
+/* List Styles */
+ul { margin: 0 50px; padding: 0; }
+
+ul.menu { margin: 0 0 0 2px; padding: 0px; list-style-type: none; }
+
+li.menu_item_h {
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 1px;
+	margin-right: 3px;
+	text-align: center;
+	font-size: 14px;
+}
+li.menu_item_h:hover {
+	color: #999999;
+	font-size: 14px;
+}
+li.menu_item_selected_h {
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 1px;
+	margin-right: 3px;
+	text-align: center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-size: 14px;
+}
+li.menu_item {
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #666666;
+	text-align: center;
+	font-size: 14px;
+}
+li.menu_item:hover {
+	font-size: 14px;
+}
+li.menu_item_selected {
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #666666;
+	text-align: center;
+	font-size: 14px;
+}
+.FileteGris {
+
+	background-color: #FFFF99;
+	border: 1px solid #333333;
+}
+.Sombra {
+	background-image: url(fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 13px;
+	width: 360px;
+}
+iframe{
+	border: 1px solid #000000;
+}
